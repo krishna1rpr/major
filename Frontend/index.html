@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="style.css">
+	<title>Dynamic Box Form</title>
+	<script src="script.js">
+	</script>
+</head>
+<body>
+	<h1>Add boxes</h1>
+	<form id="box-form">
+		<input type="text" name="box-label[]" placeholder="Box Label">
+		<input type="text" name="vertex[]" placeholder="Top-Left X,Y" required>
+		<input type="text" name="vertex[]" placeholder="Top-Right X,Y" required>
+		<input type="text" name="vertex[]" placeholder="Bottom-Left X,Y" required>
+		<input type="text" name="vertex[]" placeholder="Bottom-Right X,Y" required>
+		<br>
+	</form>
+
+    <div class="buttons">
+        <button type="button" onclick="addBox()">Add Box</button>
+	    <button type="button" onclick="submitForm()">Send</button>
+    </div>
+
+	
+</body>
+</html>

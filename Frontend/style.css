@@ -1,0 +1,21 @@
+#box-form{
+    /* margin-left: 30% */
+    text-align: center;
+
+    
+}
+
+input{
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.buttons{
+    margin-top: 2%;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 2%;
+}
